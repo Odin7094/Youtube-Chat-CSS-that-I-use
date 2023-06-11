@@ -1,0 +1,44 @@
+.style-scope yt-live-chat-renderer {
+    background-color: rgb(0, 0, 0, 0);
+}
+
+#items.yt-live-chat-item-list-renderer > *.yt-live-chat-item-list-renderer {
+    background-color: rgb(0, 0, 0, 0);
+}
+
+yt-live-chat-text-message-renderer #message,
+yt-live-chat-text-message-renderer #message * {
+	text-shadow: -1px -1px 0 #daf9ff, 1px -1px 0 #daf9ff, -1px 1px 0 #daf9ff, 1px 1px 0 #daf9ff !important;
+	text-shadow: -1px -1px 0 #daf9ff, 1px -1px 0 #daf9ff, -1px 1px 0 #daf9ff, 1px 1px 0 #daf9ff !important;
+	font-weight: bold;
+	font-size: 16px;
+	color: black !important;
+}
+
+
+.style-scope yt-live-chat-header-renderer {
+    display: none;
+}
+
+yt-live-chat-item-list-renderer[allow-scroll] #item-scroller.yt-live-chat-item-list-renderer {
+    overflow: hidden;
+}
+
+.style-scope yt-live-chat-message-input-renderer {
+    display: none;
+}
+
+.style-scope yt-live-chat-viewer-engagement-message-renderer
+{
+  display: none;
+}
+
+
+#items {
+  position: fixed !important;
+  bottom  : 0 !important;
+  left    : 0 !important;
+  right   : 0 !important;
+  overflow: hidden !important;
+}
+
